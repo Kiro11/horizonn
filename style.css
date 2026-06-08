@@ -1,0 +1,85 @@
+/* RESET + GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body{
+ background: #0b0b0b;
+color:#fff;
+font-family: arial, sans-serif;
+overflow-x: hidden;
+ }
+/* HERO BASE LAYOUT */
+.hero {
+    display: flex;
+
+    justify: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    min-height: 100vh;
+}
+.hero-left {max-width: 600px;
+    }
+/* TEXT */
+h1 {
+    font-size: clamp(52px, 14vw, 80px);
+    line-height: 0.9;
+
+}
+h1 span{
+display: block;
+
+}
+.tag{
+font-size: 14px;
+color: #aaa;
+margin-bottom:14px;
+letter-spacing: 1px;
+}
+.roles{
+    margin-top: 14px;
+
+}
+.role-item{
+font-size: 14px;
+opacity: 0.7;
+margin-bottom: 4px;
+
+
+
+
+
+}
+
+.role-item {
+  font-size:14px;
+  opacity:0.7;
+  margin-bottom: 4px;
+
+
+
+
+
+}
+/* EXPERIENCE */
+.exp-badge {
+margin-top: 18px;
+display: flex;
+align-items: center;
+gap12px;
+
+
+
+
+
+}
+.exp-num{
+font-size: 42px;
+fot-weight: bold;
+
+
+
+
+}
