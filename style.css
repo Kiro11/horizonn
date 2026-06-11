@@ -193,4 +193,49 @@ left: 0;
 bottom: 0;
 right: 0;
 }
+/* MARQUEE SECTION */
+.rivalo-banner {
+overflow: hidden;
+white-space: nowrap
+padding: 20px 0;
 
+
+
+
+}
+/* MARQUEE SECTION */
+.rivalo-banner {
+overflow: hidden;
+white-space: nowrap;
+padding: 20px 0;
+border-top: 1px solid #222;
+margin-top: 40px;
+}
+.marquee {
+display: inline-block;
+animation: marqueescroll 19s linear infinite;
+}
+.marquee-item {
+display: inline-block;
+margin: 0 20px;
+font-size: 14px;
+letter-spacing: 1px;
+}
+/* ACCENT COLOR */
+.accent{
+    color: #00ffcc;
+}
+
+/* ANIMATION */
+@keyframes marqueescroll {
+    0%{
+transform: translateX(0%)
+
+
+
+    }
+    100%{
+transform: translateX(-50%);
+
+    }
+}
