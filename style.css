@@ -363,3 +363,86 @@ h3 {
 .mt-40 { margin-top: 40px; }
 .mb-20 { margin-bottom: 20px; }
 .mb-40 { margin-bottom: 40px; }
+/* RESPONSIVE DESIGN */
+
+/* TABLET */
+@media (max-width: 1024px) {
+.hero{
+padding: 60px 40px;
+}
+
+}
+.section {
+padding: 60px 40px;
+}
+.about-grid {
+grid-template-columns: 1fr;
+gap: 40px;
+}
+   
+
+   .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+   }
+
+
+   .cta-section{
+   grid-template-columns: 1fr;
+   text-align: center;
+   }
+
+
+   footer {
+flex-direction: column;
+gap: 10px;
+text-align: center;
+   }
+/* MOBILE */
+@media (max-width: 768px) {
+.hero {
+flex-direction: column;
+text-align: center;
+padding: 40px 20px;
+}
+}
+.hero-right {
+margin-top: 30px;
+}
+h1 {
+font-size: clamp(40px, 12vw, 60px);
+}
+.social-row {
+justify-content: center;
+}
+
+.section {
+      padding: 48px 20px;
+}
+.skills-list {
+grid-template-columns: 1fr;
+}
+ 
+
+.about-stats {
+    grid-template-columns: 1fr 1fr;
+}
+.cta-section {
+    padding: 48px 20px;
+  }
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+h1 {
+font-size: 36px;
+}
+}
+.exp-num {
+ font-size: 32px;
+}
+                .social-btn {
+                                     font-size: 9px;
+                                       padding: 6px 10px;
+                }
+                    .photo-wrap {
+width: 260px;
+height: 260px;
+}              
