@@ -1,3 +1,26 @@
+.cursor {
+  width: 6px;
+  height: 6px;
+  background: #00ffcc;
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+.cursor-ring {
+  width: 35px;
+  height: 35px;
+  border: 1.5px solid #00ffcc;
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease;
+  
+}
 /* RESET + GLOBAL */
 * {
   margin: 0;
@@ -516,4 +539,4 @@ transition: 0.6s ease;
 .fade-in.show {
 opacity: 1;
 transform: translate(0);
-}
+}   
