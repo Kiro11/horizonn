@@ -586,3 +586,47 @@ transform: translateY(-4px);
 .photo-wrap img:hover {
 transform: scale(1.05);
 }
+
+
+
+
+
+/* ABOUT SECTION */
+.about {
+padding: :100px 60px;
+background:#0f0f0f;
+}
+.about-container {
+  display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 60px;
+align-items: center;
+}
+.about-left h2 {
+font-size: 40px;
+margin-bottom: 20px;
+}
+ 
+.about-left p {
+color: #aaa;
+ line-height: 1.6;
+
+}
+
+.about-right {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap:20px;
+}
+.skill {
+border: 1px solid #222;
+padding: 20px;
+text-align: center;
+border-radius: 12px;
+transition: 0.3s;
+}
+.skill:hover {
+background: rgb(133, 255, 239);
+color: #000;
+transform: translateY(-5px);
+}
