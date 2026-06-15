@@ -530,7 +530,7 @@ background: #00ffcc;
 border-radius: 10px;
 }
 
-/* FADE IN (لو هتستخدمه بعدين) */
+/* FADE IN  */
 .fade-in {
 opacity: 0;
 transform: translate(20px);
@@ -540,3 +540,49 @@ transition: 0.6s ease;
 opacity: 1;
 transform: translate(0);
 }   
+/* HERO TEXT ANIMATION */
+.hero-left h1{
+animation: fadeUp 1s ease forwards;
+  opacity: 0;
+}
+.roles .role-item {
+animation: fadeUp 1s ease forwards;
+opacity: 0;
+}
+.roles .role-item:nth-child(1) { animation-delay: 0.2s;}
+.roles .role-item:nth-child(1) { animation-delay: 0.4s;}
+.roles .role-item:nth-child(1) { animation-delay: 0.6s;}
+.roles .role-item:nth-child(1) { animation-delay: 0.8s;}
+.roles .role-item:nth-child(1) { animation-delay: 1s;}
+
+
+
+/* FADE UP ANIMATION */
+
+@keyframes fadeUp {
+ from {
+    transform: translateY(40px);
+         opacity: 0;
+ }
+ to {
+transform: translateY(0);
+opacity: 1;
+    }
+}
+/* BUTTON HOVER */
+.social-btn {
+transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background:#0e5043 ;
+color: #000;
+transform: translateY(-4px);
+}
+/* IMAGE HOVER */
+.photo-wrap img {
+  transition: transform 0.4s ease;
+}
+.photo-wrap img:hover {
+transform: scale(1.05);
+}
