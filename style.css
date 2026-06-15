@@ -630,3 +630,34 @@ background: rgb(133, 255, 239);
 color: #000;
 transform: translateY(-5px);
 }
+
+/* PROJECTS */
+.projects {
+ padding: 100px 60px;
+}
+
+.section-title {
+font-size: 40px;
+margin-bottom: 40px;
+}
+
+.projects-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+}
+ .project-card {
+border: 1px solid #490577;
+padding: 30px;
+border-radius: 16px;
+transition:  0.3s;
+ }
+
+ .project-card:hover {
+transform: translateY(-8px);
+border-color: aquamarine;
+ }
+ .project-card p {
+color: #aaa;
+font-size: 14px;
+ }
