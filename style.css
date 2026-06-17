@@ -661,3 +661,37 @@ border-color: aquamarine;
 color: #aaa;
 font-size: 14px;
  }
+
+ /* FOOTER */
+ .footer {
+padding: 40px 60px;
+border-top: 1px solid #00495b;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+
+ }
+.footer-left h3 {
+margin-bottom: 8px;
+}
+.footer-left p {
+color: #aaa;
+font-size: 14px;
+}
+.footer-right {
+display: flex;
+gap: 20px;
+}
+ 
+.footer-right a {
+text-decoration: none;
+color: whitesmoke;
+font-size: 14px;
+transition: 0.3s;
+}
+
+.footer-right a:hover {
+  color: #00ffcc;
+}
