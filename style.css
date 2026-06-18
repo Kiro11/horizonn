@@ -28,17 +28,18 @@
   box-sizing: border-box;
 }
  body{
- background: #0b0b0b;
+  background: radial-gradient(circle at top, #030828 0%, #050505 100%);
 color:#fff;
 font-family: arial, sans-serif;
 overflow-x: hidden;
  }
 /* HERO BASE LAYOUT */
 .hero {
-    display: flex;
-
-    justify: flex;
-    justify-content: space-between;
+   .hero {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
     align-items: center;
     padding: 80px 60px;
     min-height: 100vh;
@@ -149,7 +150,7 @@ border-radius: 12px;
 }
 photo-wrap img {
 width: 100%;
-height: 100;
+height: auto;
 object-fit: cover;
 transition: 0.4s ease;
 }
@@ -596,12 +597,14 @@ transform: scale(1.05);
 padding: :100px 60px;
 background:#0f0f0f;
 }
-.about-container {
-  display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 60px;
-align-items: center;
+..about-container {
+  display: flex;
+  flex-wrap: wrap; /* 👈 مهم */
+  gap: 20px;
+  align-items: center;
 }
+
+
 .about-left h2 {
 font-size: 40px;
 margin-bottom: 20px;
@@ -642,9 +645,11 @@ margin-bottom: 40px;
 }
 
 .projects-grid {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 30px;
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap; /* 👈 أهم سطر */
+  gap: 20px;
+}
 }
  .project-card {
 border: 1px solid #490577;
@@ -694,4 +699,84 @@ transition: 0.3s;
 
 .footer-right a:hover {
   color: #00ffcc;
+}
+
+/* NAVBAR */
+.navbar {
+position: fixed;
+top: 20px;
+left: 50%;
+transform: translateX(-50%);
+width: 90%;
+padding: 15px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+background: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), alpha);
+backdrop-filter: blur(10px);
+border-radius: 50px;
+border: 1px solid rgba(rgb(241, 228, 228), rgb(211, 214, 211), rgb(190, 190, 190), alpha);
+
+z-index: 999;
+}
+.nav-logo {
+font-weight: bold;
+letter-spacing: 2px;
+}
+.nav-links {
+display: flex;
+gap: 20px;
+}
+
+.nav-links a {
+text-decoration: navajowhite;
+color: wheat;
+font-size: 14px;
+transition: 0.3s;
+}
+.nav-links a:hover {
+color: #00ffcc;
+}
+
+/* GLASS EFFECT GENERAL */
+.glass {
+background: rgba(red, green, blue, alpha);
+backdrop-filter: blur(12px);
+border: 1px solid rgba(red, green, blue, alpha);
+border-radius: 20px; 
+}
+
+/* APPLY TO SECTIONS */
+.project-card,
+.about-container,
+.footer,
+.contact-form {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 20px;
+}
+ 
+
+
+
+
+.contact {
+padding: 100px 60px;
+text-align: center;
+}
+
+.contact-btn {
+padding: 15px 25px;
+border: 1px solid #00ffcc;
+color: #00ffcc;
+text-decoration: none;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+.contact-btn:hover {
+background: #00495b;
+color: #000;
 }
