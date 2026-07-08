@@ -1,9 +1,5 @@
-This is my personal website built using HTML, CSS, and JavaScript.
-
-i made 100% from html code
-
-and 60% from css and javascript
-
-ai helped me in some animations and gradient of site and photo
-
-thanks hack club ❤️
+Hello!
+This website is my own project. I'm not a very experienced programmer yet—this is only about the third real project I've ever built. I've made smaller projects before  but nothing as challenging as this.In the future, I hope to build a strong portfolio. to add the my projects I've built over time. Right now, I'm collecting all of my projects so I can showcase them on this website in the future.
+I want to be honest in my process. AI helped me while building this project, but it didn't build the whole thing for me. It helped with around 30%  CSS, 25% JavaScript 10% of the HTML, mostly for the glassmorphism effects and some animations . I spent a lot of time understanding the code, editing it, debugging itand making everything work together    ai helped me in some animations and gradient of site and photo and some debugging in the last .
+This is the first project I've submitted, and I know I still have a lot to learn. I hope my next project will be even better and will meet your expectations.
+Project link: https://horizon-six-eta.vercel.app/
